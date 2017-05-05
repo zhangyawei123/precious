@@ -1,0 +1,55 @@
+1.移动端响应式布局  rem  简书 http://www.jianshu.com/p/985d26b40199
+
+2.弹性布局 
+
+3.用户上传头像FormData    https://developer.mozilla.org/zh-CN/docs/Web/API/FormData/Using_FormData_Objects
+
+3.1  头像上传html端代码     http://www.jq22.com/jquery-info11445
+
+4.HTML5   本地储存
+
+4.1   HTML5   本地储存设置时限 支持到ie9      http://www.tuicool.com/articles/QjuaEv2
+
+
+4.2  cookie         http://www.w3school.com.cn/js/js_cookies.asp
+		    jQuery插件  $.cookie()	
+
+
+
+5.picker.js    https://github.com/ustbhuangyi/picker
+
+6. 移动端好用的轮播图   http://www.swiper.com.cn/
+
+7.jQuery + lrz 实现本地压缩后上传图片   https://github.com/think2011/localResizeIMG
+
+8. html5shiv            <script src="//cdn.bootcss.com/html5shiv/r29/html5.min.js"></script>
+
+9.提示用户升级浏览器      http://www.cnblogs.com/osfipin/p/6074499.html
+
+
+10，正则验证用户名    var regStr = /^[0-9a-zA-Z\u4e00-\u9fa5_]{3,16}$/;   //可以为汉字、数字、字母（大小写）、下划线
+
+11.百度地图：http://lbsyun.baidu.com/apiconsole/key
+      	     本地测设AK：9opv0KSyNN0SvX5TC1lGxmYTcjXyibIV；
+             互缘官网AK：pkM5aFb0VQYIIVmDjdUXRURq1osjfI2f；
+
+12. touchslider  http://www.superslide2.com/TouchSlide/
+
+13.sweetalert 弹窗        http://t4t5.github.io/sweetalert/
+
+
+
+
+
+
+
+
+
+
+
+
+？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
+
+
+
+

@@ -1,4 +1,4 @@
-1.移动端响应式布局  rem  简书 http://www.jianshu.com/p/985d26b40199
+﻿1.移动端响应式布局  rem  简书 http://www.jianshu.com/p/985d26b40199
 
 2.弹性布局 
 
@@ -35,6 +35,9 @@
 
 12. touchslider  http://www.superslide2.com/TouchSlide/
 
+
+
+
 13.sweetalert 弹窗        http://t4t5.github.io/sweetalert/
 
 
@@ -49,6 +52,7 @@
 
 
 ？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
+网易账号：m13641639170@163.com
 
 
 

@@ -71,6 +71,7 @@ function rem() {
         }
         else if(ua.match(/Android/i) != null){
             document.location = 'android地址加参数' ;
+            
             setTimeout(function() {
                 location.href = 'Android下载页';
             }, 250);

@@ -161,7 +161,7 @@
 		},
 		bindToolbar: function() {
 			var _this = this;
-			var html = $('<li class="ui-paging-toolbar"><input type="text" class="ui-paging-count"/><a href="javascript:void(0)">跳转</a></li>');
+			var html = $('<li class="ui-paging-toolbar"><select class="ui-select-pagesize"></select><input type="text" class="ui-paging-count"/><a href="javascript:void(0)">跳转</a></li>');
 			var sel = $('.ui-select-pagesize', html);
 			var str = '';
 			for (var i = 0, l = this.settings.pageSizeList.length; i < l; i++) {

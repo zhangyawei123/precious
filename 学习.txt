@@ -46,9 +46,13 @@
    （3）RangeError是当一个值超出有效范围时发生的错误。主要有几种情况，一是数组长度为负数，二是Numbe		r对象的方法参数超出范围，以及函数堆栈超过最大值。
    （4）SyntaxError是解析代码时发生的语法错误。
 
+15.（个例）微官网视频板块页面滑动问题解决 设置 overflow-x : hidden;
 
+16.vue多页面应用   https://github.com/bluefox1688/vue-cli-multi-page;
 
-
+17.好用的分页方法，前端实现的分页，后台只需传全部数据和最大分页数即可 
+   http://www.cnblogs.com/puyongsong/p/6297706.html#3627817
+   后端分页前端显示   http://www.jq22.com/jquery-info9832
 
 
 

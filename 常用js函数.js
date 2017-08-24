@@ -90,3 +90,59 @@ function rem() {
             setTimeout(function() {history.back()}, 2000);}
     })
 
+
+
+//拼接在网页链接上的参数
+function getQueryStringArgs(){
+    //取得查询字符串并去掉开头的问号
+    var qs = (location.search.length > 0 ? location.search.substring(1) : ""),
+    //保存数据的对象
+    args = {},
+    //取得每一项
+    items = qs.length ? qs.split("&") : [],
+    item = null,
+    name = null,
+    value = null,
+    //在 for 循环中使用
+    i = 0,
+    len = items.length;
+    //逐个将每一项添加到 args 对象中
+    for (i=0; i < len; i++){
+        item = items[i].split("=");
+        name = decodeURIComponent(item[0]);
+        value = decodeURIComponent(item[1]);
+        if (name.length) {
+            args[name] = value;
+        }
+    }
+    return args;
+}
+//假设查询字符串是?q=javascript&num=10
+var args = getQueryStringArgs();
+alert(args["q"]); //"javascript"
+alert(args["num"]); //"10"
+
+
+
+
+//数组按数字大小排序
+function compare(value1, value2) {
+    if (value1 < value2) {
+        return 1;
+    } else if (value1 > value2) {
+        return -1;
+    } else {
+        return 0;
+    }
+}
+var values = [0, 1, 5, 10, 15];
+values.sort(compare);
+alert(values); // 15,10,5,1,0
+
+
+
+
+
+
+
+

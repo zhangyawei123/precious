@@ -139,7 +139,11 @@ var values = [0, 1, 5, 10, 15];
 values.sort(compare);
 alert(values); // 15,10,5,1,0
 
-
+//窗口滚动时判断元素是否在可视区域内
+$(window).scroll(function() {
+  var flag = $(window).scrollTop()<($('#item').offset().top-$(window).height()) ||$(window).scrollTop()>($('#item').offset().top+$('#item').outerHeight())
+  console.log(flag)
+});
 
 
 

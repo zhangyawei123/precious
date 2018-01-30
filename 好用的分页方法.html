@@ -37,7 +37,7 @@
                 currentBtn:'',//当前按钮class name --必填
                 pageCount:9,//每页显示几条数据
                 numBtnCount:2,//当前页左右两边各多少个数字按钮
-                currentPage:0,//当前页码data-page，首屏默认值
+                currentPage: 0,//当前页码data-page，首屏默认值
                 maxCount:0,//ajax请求数据分成的最大页码
                 data:[]//ajax请求的数据
             };
@@ -88,6 +88,7 @@
                     str+='<div>'+v+'</div>';
                 });
                 $('.'+pager.mainBox).html(str);
+                sessionStorage.setItem('dasd',pager.currentPage);
             }
             //创建非数字按钮和数据内容区
             function createOtherBtn(){
@@ -209,6 +210,7 @@
             ipt:'page-ipt-nick',//input class-- 必填
             goBtn:'go-btn-nick',//go btn class --必填
             currentBtn:'active-nick',//当前按钮class name --必填
+            currentPage: parseInt(sessionStorage.getItem('dasd'), 10) || 0,
             data: [11,22,33,44,55,66,77,88,99,0,11,22,33,44,55,66,77,88,99,0,11,22,33,44,55,66,77,88,99,0,11,22,33,44,55,66,77,88,99,0]
         });
     </script>

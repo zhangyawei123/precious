@@ -54,16 +54,38 @@
    http://www.cnblogs.com/puyongsong/p/6297706.html#3627817
    后端分页前端显示   http://www.jq22.com/jquery-info9832
 
+18. weui框架 https://github.com/Tencent/weui/wiki
 
+19. chrome浏览器模拟微信浏览器，包括判断是不是浏览器 http://www.cnblogs.com/wangyulong/p/6030184.html
 
+20. IE8支持的jquery最高版本是1.12.4 https://cdn.bootcss.com/jquery/1.12.4/jquery.js
+	稳定支持版本为 1.9.0  https://cdn.bootcss.com/jquery/1.9.0/jquery.js
+
+21. 精通gulp  http://www.cnblogs.com/linxin/p/6482513.html
+    gulp一些常用插件
+    gulp 增加MD5戳 避免浏览器缓存   http://www.cnblogs.com/YikaJ/p/4267577.html
+
+22. chorme模拟手机浏览器时文本多时出现字号出错情况  加max-height  
+    https://github.com/amfe/article/issues/10
+
+23. QUICK UI 开发文档 http://www.uileader.com/doc/quickui/main.html  fuck 是收费的 良心价格￥9800
+
+24. Clipboard.js : 移动端浏览器实现网页内容复制    https://www.cnblogs.com/kevinCoder/p/6144376.html
+
+25. HTML5 FileReader    http://blog.csdn.net/sure_viola/article/details/9948619
 
 
 
 ？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
 网易账号：m13641639170@163.com
+网易账号2：zyw568579931@163.com
+网易账号3：m568579931@163.com
+博客园账号密码  zhangyawei123  zyw_151444
 js参考书  《JavaScript高级程序设计》《JavaScript语言精粹》
 人生参考书 《人格心理学》
 
+table加轮播嵌套
+vue的全局函数，公用变量，状态管理
 
 
 

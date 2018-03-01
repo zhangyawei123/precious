@@ -73,9 +73,21 @@
 24. Clipboard.js : 移动端浏览器实现网页内容复制    https://www.cnblogs.com/kevinCoder/p/6144376.html
 
 25. HTML5 FileReader    http://blog.csdn.net/sure_viola/article/details/9948619
+26. vue-cli  配置全局的scss  https://segmentfault.com/q/1010000007852596
+    （1）安装  "node-sass" ，"sass-loader"，vue-cli没有自己安装 这一步过后就可以在单个vue文件引入scss了
+    （2）安装  “sass-resources-loader” 全局使用，在main.js里就可以引用了
+         然后在build里utils.js把scss: generateLoaders('sass')替换成如下代码
+          scss: generateLoaders('sass').concat({
+              loader: 'sass-resources-loader',
+              options: {
+                resources: path.resolve(__dirname, '../src/assets/scss/color.scss')
+              }
+            }
+          ),
+          注意options里面path的路径
+    （3）注意webpack.base.conf.js里面加上const webpack = require("webpack")
 
-
-
+27. https://docschina.org/home/doc 印记中文文档，很多框架工具很全
 ？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
 网易账号：m13641639170@163.com
 网易账号2：zyw568579931@163.com
